@@ -1,15 +1,33 @@
 body{
     font-family: 'Roboto Serif', sans-serif;
+    text-align: center;
 }
+h1, h2, h3, h4, h5,h6{
+    font-family: 'Roboto Serif', sans-serif;
+}
+p{
+    color: rgb(121, 121, 121);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Headings */
+.big-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.section-heading{
+    font-size: 2.0rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Title */
 #title{
     background-color: rgb(252, 231, 147);
     color: rgb(28, 27, 27);
-}
-.col-lg-6 h1{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
+    text-align: left;
 }
 .container-fluid{
     padding: 0% 8% 0% 8%;
@@ -17,10 +35,12 @@ body{
 }
 .navbar-toggler-icon{
     border: 2px solid black;
-    background-color: rgb(235, 233, 233);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
 }
-/* Navigation bar */
 
+
+/* Navigation bar */
 .navbar-dark .navbar-brand{
     font-size: 32px;
     font-weight: bold;
@@ -41,13 +61,13 @@ body{
     color: black;
     font-weight: bold;
 }
+
 /* Buttons */
 .download-button{
     margin: 5% 3% 5% 0%;
 }
 
 /* Title img */
-
 .title-img{
     width: 45%;
     transform: rotate(25deg);
@@ -61,18 +81,11 @@ body{
     padding: 70px 120px;
     background-color: white;
     position: relative;
-}   
-.feature-box{
-    text-align: center;
-}
-h3{
-    font-family: 'Roboto Serif', sans-serif;
+} 
+.feature-title{
     font-weight: bold;
 }
-p{
-    color: rgb(121, 121, 121);
-    font-family: 'Ubuntu', sans-serif;
-}
+
 .fasn{
     color: rgb(253, 219, 82);
     margin-bottom: 1rem;
@@ -82,29 +95,27 @@ p{
 }
 
 /* Testimonials */
-
 #testimonials{
     padding: 7% 15%;
-    text-align: center;
     background-color: rgb(252, 231, 147);
 }
-h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    width: 70%;
-    margin: auto;
-}
+
 .test-img{
     border-radius: 100%;
     width: 15%;
     margin: 20px;
 }
 
+.testimonials-text{
+    font-size: 2.0rem;
+    line-height: 1.5;
+    width: 70%;
+    margin: auto;
+}
+
 /* press */
 #press{
     background-color: rgb(252, 231, 147);
-    text-align: center;
     padding-bottom: 30px;
 }
 .press-img{
@@ -116,32 +127,29 @@ h2{
 }
 
 /* pricing */
-
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 .pricing-col{
     padding: 20px;
 }
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
 
 /* CTA */
 #cta{
     background-color: rgb(252, 231, 147);
-    text-align: center;
     padding: 70px;
-}
-#cta h3{
-    line-height: 2;
 }
 .btn-pd{
     margin-left: 10px;
 }
 
 /* Footer */
-
 .foot{
-    text-align: center;
     padding: 50px;
     background-color: white;
 }
@@ -150,7 +158,7 @@ h2{
 }
 
 /* media query for mobile view */
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
 
 #title{
     text-align: center;
